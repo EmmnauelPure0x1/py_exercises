@@ -17,3 +17,4 @@ print("++++++++++")
 t2 = open('text_file_2.txt', 'r')
 print(t2.readlines())
 t2.close()
+
