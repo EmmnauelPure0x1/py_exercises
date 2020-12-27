@@ -1,5 +1,5 @@
 # Reading from a text file
-
+'''
 print("++++++++++")
 
 # opening text document and adding 'read' powers. Storing this action into text variable
@@ -13,8 +13,12 @@ for line in text:
 text.close()
 
 print("++++++++++")
+'''
+t2 = open('text_file_2.txt')
 
-t2 = open('text_file_2.txt', 'r')
-print(t2.readlines())
+for char in t2.readlines():
+    for i in char:
+        print(i)
+
 t2.close()
 
